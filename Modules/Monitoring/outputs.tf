@@ -1,0 +1,3 @@
+output "vm_id" {
+  value = azurerm_monitor_metric_alert.cpu_alert
+}
